@@ -2,7 +2,7 @@
 
 Este é um projeto que eu fiz por diversão, depois de ver vários projetos de "Valentine's Day". Consiste numa página de _login_, onde o usuário deve inserir seu nome e email (o email não será usado para nada!). Uma vez inseridos, somos redirecionados para uma aparente homepage/menu do usuário. Clicando em "Clique aqui para explorar", somos levados ao projeto de verdade, onde teremos uma série de mini-jogos com tema romântico que devem ser completados para seguir para o próximo. [Veja na prática](https://eduarda-pimentel.github.io/projeto-momo/).
 
-Neste repositório, o jogo está feito com  arquivos _placeholders_, mas você pode facilmente fazer um fork e substituir com seus próprios arquivos (ou fazer pull e alterar localmente). [Veja como personalizar](#️-guia-de-personalização).
+Neste repositório, o jogo está feito com  arquivos _placeholders_, mas você pode facilmente fazer um fork e substituir com seus próprios arquivos (ou fazer pull e alterar localmente).
 
 ## :video_game: Descrição dos mini-jogos
 
