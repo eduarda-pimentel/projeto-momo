@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+#gameSite {
+    background-image: url('../../assets/images/heart-background.png');
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed; 
+    min-height: 100vh; 
+}
+
+
+ #centralPannel{
+    height: 80vh;
+    aspect-ratio: 16/9;
+    background-color:#faebf1;
+    box-shadow: 0 4px 8px 0 rgba(242, 81, 62, 0.2), 0 6px 20px 0 rgba(242, 81, 62, 0.19);
+    overflow: hidden; 
+    flex-wrap: wrap;
+}
+
+.textoRom{
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2513e;
+}
+
+.leftContainer {
+    height: 100%; 
+    overflow: hidden;
+}
+
+.leftContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    object-position: center; 
+}
+
+.quizzOption input{
+    border: 1px solid #f2513e;
+}
+
+.sendBtn{
+    border: 1px solid #f2513e;
+}
+
+#gameBoard{
+    width: 65%;
+    aspect-ratio: 1/1;
+}
+
+.cell {
+    aspect-ratio: 1/1;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cell img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+  
+.heart-overlay {
+    position: absolute;
+    font-size: 3em;
+    color: red;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.altInfo{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #centralPannel {
+        height: 90vh;
+        aspect-ratio: 1/1;  
+    }
+    
+    .leftContainer{
+        display: none;
+    }
+    
+    .altInfo{
+        display: inline;
+    }
+}
