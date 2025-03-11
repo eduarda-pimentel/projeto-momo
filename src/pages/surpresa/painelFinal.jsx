@@ -9,7 +9,7 @@ export function PainelFinal (){
     const navigate = useNavigate();
     const [msg, setMsg] = useState("");
     const getData = async () => {
-        const adivinhaContents = await fetch('/contents/finalMsg.json');
+        const adivinhaContents = await fetch('/projeto-momo/contents/finalMsg.json');
         const jsonData = await adivinhaContents.json();
         setMsg(jsonData.finalMsg)
     };

@@ -129,11 +129,11 @@ export function ClickGameRight({setCanAdvance}) {
                 }
                 { isWin&&
                     (
-                        <div className='d-flex flex-column'>
+                        <div className='d-flex flex-column align-items-center'>
                             <p className='textoRom m-0 fs-3 text-center'> 
                                 Uhu! Acertou mozão! <FaHeart style={{'fontsize':'3em'}}/>
                             </p>
-                            <img className='rounded' src={adivinha}/>       
+                            <img className='rounded' style={{'width': '70%'}} src={adivinha}/>       
                         </div>
                     )
                 }

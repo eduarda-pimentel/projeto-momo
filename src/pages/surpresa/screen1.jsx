@@ -57,7 +57,7 @@ export function QuizzRight({setCanAdvance}) {
     const [respostaCerta, setRespostaCerta] = useState(null);
 
     const getData = async () => {
-        const quizzContents = await fetch('/contents/screen1.json');
+        const quizzContents = await fetch('/projeto-momo/contents/screen1.json');
         const jsonData = await quizzContents.json();
         setData(jsonData.quizzOptions);
         setApelido(jsonData.apelidoFofo);

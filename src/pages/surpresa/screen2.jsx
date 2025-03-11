@@ -57,7 +57,7 @@ export function AdivinhaRight({setCanAdvance}){
     const [apelido, setApelido] = useState('');
 
     const getData = async () => {
-        const adivinhaContents = await fetch('/contents/screen2.json');
+        const adivinhaContents = await fetch('/projeto-momo/contents/screen2.json');
         const jsonData = await adivinhaContents.json();
         setResposta(jsonData.palavraSecreta);
         setApelido(jsonData.apelidoFofo);

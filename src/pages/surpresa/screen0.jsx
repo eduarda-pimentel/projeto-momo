@@ -11,7 +11,7 @@ export function IntroLeft(){
 export function IntroRight({setCanAdvance}){
     const [data, setData] = useState('');
     const getData = async () =>{
-        const introContents = await fetch('/contents/screen0.json')
+        const introContents = await fetch('/projeto-momo/contents/screen0.json')
         const jsonData = await introContents.json();
         setData(jsonData.introText)
     }
